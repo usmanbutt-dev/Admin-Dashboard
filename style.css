@@ -155,3 +155,87 @@ span {
 .active-icon {
     color: #10b5c9;
 }
+
+.page-logo {
+    color: slategray;
+    font-size: 32px;
+}
+
+.content-box--second {
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.content-box--second > * {
+    box-sizing: border-box;
+    flex: 1;
+    width: 100%;
+    color: #223333;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.content-box--second---item-1 {
+    flex: 3;
+}
+
+.content-box--second---item-2 {
+    flex: 2;
+}
+
+.content-box--third {
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.content-box--third > * {
+    box-sizing: border-box;
+    flex: 1;
+    width: 100%;
+    color: #223333;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.content-box--third---item-1 {
+    flex: 2;
+}
+
+.content-box--third---item-2 {
+    flex: 3;
+}
+.projects-header {
+    padding-left: 10px;
+    flex: 1;
+}
+
+.projects-sort-options {
+    display: flex;
+    flex: 1;
+    gap: 10px;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.projects-list {
+    display: flex;
+    height: 60%;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 35px;
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+    width: 20%;
+    min-width: 125px;
+    border-radius: 35px;
+    border: 5px solid purple;
+}
