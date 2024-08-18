@@ -357,6 +357,10 @@ hr {
         flex-direction: column;
     }
 
+    .nav-item--second {
+        justify-content: center;
+    }
+
     .projects-list {
         flex-direction: column;
         gap: 20px;
@@ -365,6 +369,7 @@ hr {
 
     .project {
         border: 2px solid black;
+        height: auto;
     }
 
     .content-box--first {
@@ -374,6 +379,11 @@ hr {
     .content-box--second {
         width: 90%;
         gap: 10px;
+    }
+
+    .sample-box-container {
+        width: fit-content;
+        justify-content: flex-start;
     }
 
     .sample-box {
@@ -388,7 +398,7 @@ hr {
     }
     .announcement-box {
         height: 300px;
-        width: fit-content;
+        width: 100%;
     }
 
     .statistics-box {
