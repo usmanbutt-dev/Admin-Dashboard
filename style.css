@@ -343,7 +343,8 @@ hr {
 .large-icon {
     font-size: 32px;
 }
-@media (max-width: 720px) {
+
+@media (max-width: 800px) {
     body {
         height: fit-content;
         padding: 10px 0;
@@ -371,6 +372,7 @@ hr {
     }
 
     .content-box--second {
+        width: 90%;
         gap: 10px;
     }
 
@@ -386,7 +388,7 @@ hr {
     }
     .announcement-box {
         height: 300px;
-        width: 100%;
+        width: fit-content;
     }
 
     .statistics-box {
