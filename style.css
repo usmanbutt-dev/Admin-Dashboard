@@ -371,20 +371,18 @@ hr {
 
     .project {
         width: 90%;
-        height: auto;
+        height: 10vh;
         min-width: 100px;
     }
 
     .dates-container {
-        margin-bottom: 25px;
-        width: 100%;
+        display: none;
     }
 
     .statistics-box {
-        height: auto;
-        width: 90%;
+        height: 30vh;
+        width: 100%;
         margin-bottom: 50px;
-        background-size: contain;
     }
 
     .content-box--first {
