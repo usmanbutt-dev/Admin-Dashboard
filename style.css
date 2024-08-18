@@ -320,7 +320,6 @@ hr {
 
 .sample-box {
     display: flex;
-
     height: 60%;
     width: 35%;
     border-radius: 15px;
@@ -343,4 +342,39 @@ hr {
 
 .large-icon {
     font-size: 32px;
+}
+
+@media (max-width: 720px) {
+    .main-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sample-box {
+        width: 50%;
+        height: 100%;
+    }
+
+    .content-box--second {
+        padding-bottom: 50px;
+        gap: 75px;
+    }
+
+    .project {
+        height: 160px;
+    }
+
+    .dates-container {
+        margin-bottom: 25px;
+    }
+
+    .statistics-box {
+        height: 300%;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .content-box--first {
+        display: none;
+    }
 }
