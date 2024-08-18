@@ -399,7 +399,7 @@ hr {
     }
     .announcement-box {
         height: 300px;
-        width: 100%;
+        width: 75%;
     }
 
     .statistics-box {
@@ -412,6 +412,10 @@ hr {
     }
 
     .nav-item--third {
+        display: none;
+    }
+
+    .nav-item--second {
         display: none;
     }
 }
